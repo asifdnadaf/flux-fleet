@@ -8,4 +8,6 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/asifdnadaf/instavote-deploy
+  secretRef:
+    name: github-instavote
+  url: https://github.com/asifdnadaf/instavote-deploy.git
